@@ -70,9 +70,9 @@
     <section class="process container-fluid" class="introGridArea">
         <h6>THE PROCESS</h6>
         <div class="circles">
-            <div class="circle">User Interface Analysis</div>
+            <div class="circle shape">User Interface Analysis</div>
             <img src="Images/arrow.svg">
-            <div class="circle">User Interface Design</div>    
+            <div class="circle shape">User Interface Design</div>    
         </div>
     </section>
 
@@ -108,7 +108,7 @@
 
 <!-- Research-->
     <section class="research">
-        <div class="phase1Heading">
+        <div class="phase1Heading divHeading">
             <h2>User Interface Analysis</h2>
             <p>For this phase I executed a heuristic evaluation of the current NSA website. I also conducted usability tests to see how real users navigated through the current website. </p>
         </div>
@@ -137,17 +137,21 @@
         </div>
         </div>
         <div class="userflow">
+        <div class="divHeading">
             <h4>User Flow</h4>
             <p>I defined a typical user path for Hank on the current NSA website so I could see the steps he takes to achieve his end goal and identify issues along the way. </p>
+        </div>
             <div class="d-flex justify-content-center">
             <div id="flow"><img src="Images/Typical user flow.png"></div>
         </div>
     </div>
         <p class="tools">Tools: Overflow</p>
         <p class="highlight">What's wrong the NSA website?</p>
-        <div class="heurEval">
+        <div class="annotations">
+            <div class="divHeading">
             <h4>Heuristic Evaluation</h4>
             <p>I executed a heuristic evaluation of the pages Hank visits, that were defined in his user path, as a way to identify usability problems in the website’s current user interface. I analyzed the appearance, accessibility, content, and functionality of the website. </p>
+        </div>
             <div class="d-flex justify-content-center">
             <div class="evalIMG">
                 <img src="Images/NSA Homepage@2x.svg">
@@ -157,17 +161,9 @@
             </div>
         </div>
     </div>
+    <p class="tools">Tools: Adobe XD</p>
     <div class="heurProblems">
         <h6>MAIN PROBLEMS:</h6>
-        <!-- Research
-<ul class="heurInsights">
-            <li class="heurList">The terminology is confusing.</li>
-            <p class="more"> It is jargon-heavy with words that the average person may not understand, making the pages difficult to scan.</p>
-            <br><li class="heurList">There are too many external links.</li>
-            <p class="more">The user is sent to different websites in order to achieve a task, primarily when looking for career information and opportunities.</p>
-            <br><li class="heurList">The website is not easy to navigate.</li>
-            <p class="more">Getting around the site is not easy and the user has to do a lot of guesswork. One reason is the confusing terminology, but also the submenus aren’t categorized in any particular way and feel overwhelming to browse through. It’s hard to get to know the site and remember where everything is.</p>
-        </ul> -->
     <ul class="heurInsights">
         <div class="d-flex flex-column">
             <div class="p-2 col-lg-6 col-md-8 col-sm-12"><li class="heurList">The terminology is confusing.</li>
@@ -179,12 +175,267 @@
             <div class="p-2 col-lg-6 col-md-8 col-sm-12"><li class="heurList">The website is not easy to navigate.</li>
                 <p class="more">Getting around the site is not easy and the user has to do a lot of guesswork. One reason is the confusing terminology, but also the submenus aren’t categorized in any particular way and feel overwhelming to browse through. It’s hard to get to know the site and remember where everything is.</p>
             </div>
-
           </div>
        </ul>
     </div>
-
+    <div class="usability divHeading">
+        <h4>Usability Testing</h4>
+        <p>I wanted to see how real users navigated the current NSA website. Five participants were presented with a series of tasks to complete in order to see how they navigate through the current NSA website.  I was able to validate the problems I encountered from the heuristic analysis. Tests were conducted via Zoom.</p>
+    </div>
+    <div class="taskContainer tasks row d-flex justify-content-center">
+       <div class="card square shape">
+           <div>Task 1: Learn about the NSA</div>
+          </div>
+          <div class="card square shape">
+            <div>Task 2: Explore NSA jobs </div>
+          </div>
+          <div class="card square shape">
+            <div>Task 3: Apply for a job</div>
+          </div>
+          <div class="card square shape">
+            <div>Task 4: Contact careers</div>
+          </div>
+        </div>
+        <div class="userProblems mainProblems">
+            <h6 class="problems">KEY USER PAIN POINTS:</h6>
+            <ul class="userInsights">
+          <div class="insight"><p class="bulletPoint">Most participants felt they did not get a general idea of who the NSA is.</p><p class="more"> Many described the website as feeling cryptic or vague as to what the NSA really does. Many participants wished to see the different departments of the NSA.</p>
+          </div> 
+           <div class="quoteContainer"><p class="quoteOrange quote">“’About Us’ is more about work ethic than what they actually do.”</p>
+        </div>
+           <p class="quoteBy">Alan</p>
+           <div class="insight"><p class="bulletPoint">Most participants felt they did not get a general idea of who the NSA is.</p><p class="more"> Many described the website as feeling cryptic or vague as to what the NSA really does. Many participants wished to see the different departments of the NSA.</p>
+           </div>
+           <div class="quoteContainer"><p class="quoteBlue quote">“ I feel like it would have been better if [careers] was nested within the NSA [website] just for ease of use because all of this stuff is really redundant.” </p>
+           </div>
+           <p class="quoteBy">Doreen</p>
+           <div class="insight" id="jeff"><p class="bulletPoint">Most participants had issues finding contact information.</p><p class="more"> Most navigated to the footer to find a way to contact the NSA, even though they did not find it there.</p>
+           </div>
+           <div class="insight"><p class="bulletPoint">Participants did not have faith in the contact forms.</p><p class="more"> Most expressed they do not believe they will receive a timely reply, if at all.</p>
+           </div>
+           <div class="quoteContainer"><p class="quoteOrange quote">“ With all the different job categories, I would add a dropdown so all the requests are going to the right person.”
+        </p>
+           </div>
+           <p class="quoteBy">Jeff</p>
+           <img id="usability" src="Images/usability.svg">
+           <div class="insight"><p class="bulletPoint">Participants felt overwhelmed by  the amount of information.</p><p class="more"> Some of the pages lacked content and weren’t helpful. Although there was some sort of hierarchy of information, participants were confused by much of the taxonomy. </p>
+           </div>
+        </ul>
+        </div>
     </section>
+
+<!-- Define-->
+    <section class="define">
+        <div class="phase2Heading divHeading">
+            <h2>Responsive Redesign</h2>
+            <p>From the usability testing and heuristic evaluation, I realized that the biggest pain point, and perhaps the root of all pain points, was the present navigation.</p>
+        </div>
+        <p class="highlight">What isn't working?</p>
+        <div class="annotations">
+            <div class="divHeading">
+            <h4>Heuristic Evaluation</h4>
+            <p>I executed a heuristic evaluation of the pages Hank visits, that were defined in his user path, as a way to identify usability problems in the website’s current user interface. I analyzed the appearance, accessibility, content, and functionality of the website. </p>
+        </div>
+            <div class="d-flex justify-content-center">
+            <div class="evalIMG">
+                <img src="Images/0.0 Homepage@2x.svg">
+                <img src="Images/2.6 Research@2x.svg">
+                <img src="Images/Navigation menus and submenus@2x.svg">
+            </div>
+        </div>
+    </div>
+    <p class="tools">Tools: Adobe XD</p>
+    <div class="userProblems mainProblems">
+        <h6 class="problems">MAIN PROBLEMS:</h6>
+        <ul class="userInsights">
+      <div class="insight list-item"><p class="bulletPoint">Overcrowded menus.</p><p class="more"> Submenus and their submenus need to be grouped, sorted, and relabeled. There are too many lists to go through without enough context as to what each list item means. Context can be developed and communicated better by changing the page layout from just words and lists to actual sections with appropriate headings and descriptions. </p>
+      </div> 
+       <div class="insight list-item"><p class="bulletPoint">Footer information isn't helpful.</p><p class="more"> Need to re-evaluate which information to put in the footer. Information should be quick access for users.</p>
+       </div>
+       <div class="insight list-item"><p class="bulletPoint">The homepage content doesn't help users achieve their goals.</p><p class="more"> The sections and headings aren’t all clearly defined and some of the terminology may be confusing to most people. There isn’t really a flow to the homepage. The flow of the homepage should reflect the flow of the navigation menu so users can learn the website and find what they are looking for more easily. </p>
+       </div>
+       <div class="insight list-item"><p class="bulletPoint">Participants did not have faith in the contact forms.</p><p class="more"> Most expressed they do not believe they will receive a timely reply, if at all.</p>
+       </div>
+       <div class="insight list-item"><p class="bulletPoint">Information logic of the main navigation is confusing.</p><p class="more"> Along with the homepage, the main nav seems to be lacking a flow. How do the submenus relate to their menu option and to each other? They don’t.</p>
+       </div>
+    </ul>
+    </div>
+    </section>
+
+<!-- Ideate-->
+<section class="ideate">
+    <p class="highlight">How might we address some of these problems?</p>
+    <div class="divHeading">
+        <h4>New Website Navigation</h4>
+        <p>I began to design a new navigation with these goals in mind:</p>
+    </div>
+    <div class="userProblems mainProblems goals">
+        <ul class="userInsights myGoals">
+      <div class="insight list-item"><p class="bulletPoint"> Reduce the number of times the user has to leave the website.</p><p class="more">  For example, keep careers nested within the NSA website. </p>
+      </div> 
+       <div class="insight list-item"><p class="bulletPoint"> Make contact information easily available.</p>
+       </div>
+       <div class="insight list-item"><p class="bulletPoint"> Eliminate the guesswork.</p><p class="more"> Use terminology that is understandable by everyone to improve usability.</p>
+       </div>
+       <div class="insight list-item"><p class="bulletPoint">Reduce the number of submenus.</p><p class="more"> Chunk the content into labels that everyone can understand to improve usability.</p>
+       </div>
+    </ul>
+    </div>
+    <div class="userflow carsorting">
+        <div class="divHeading">
+            <h6>CARDSORTING</h6>
+            <p>I took all of the labels of the current website navigation and chunked them into new categories by card sorting.</p>
+        </div>
+            <div class="d-flex justify-content-center">
+            <div id="cardsorting"><img src="Images/Cardsorting.svg"></div>
+        </div>
+    </div>
+    <p class="tools">Tools: Miro</p>
+    <div class="userflow sitemap">
+        <div class="divHeading">
+            <h6>SITEMAP</h6>
+            <p>I then put together a sitemap of the new navigation.</p>
+        </div>
+            <div class="d-flex justify-content-center">
+            <div id="sitemap"><img src="Images/sitemap.svg"></div>
+        </div>
+    </div>
+    <p class="tools">Tools: Slickplan</p>
+    <div class="ideation">
+        <div class="divHeading">
+            <h4>Ideation and First Wireframes</h4>
+            <p>Now that I came up with a new navigation, I began to think of ways I wanted to solve the problems through visual design. I also began thinking of ways I wanted to convey the NSA brand through.</p>
+        </div>
+        <div class="userflow moodboard">
+            <div class="divHeading">
+                <h6>MOODBOARD</h6>
+                <p>I wanted to seek inspiration of the NSA.gov website’s brand in its early stages. These are some words come to mind: technology • trust • America • modern</p>
+            </div>
+                <div class="d-flex justify-content-center">
+                <div id="moodboard"><img src="Images/moodboard.svg"></div>
+            </div>
+        </div>
+        <p class="tools">Images from Designspiration</p>
+        <div class="userflow sketches">
+            <div class="divHeading">
+                <h6>FIRST SKETCHES</h6>
+                <p>I also sketched potential page layouts for the redesign as a part of this ideation phase.</p>
+            </div>
+                <div class="d-flex justify-content-center">
+                <div id="sketches"><img src="Images/first sketches.svg"></div>
+            </div>
+        </div>
+        <p class="tools">Tools: InVision Freehand</p>
+    </div>
+    </section>
+
+<!-- Prototype-->
+<section class="prototype">
+    <div class="mid-fiSolutions">
+        <div class="divHeading">
+            <h4>Mid-Fidelity Responsive Solutions</h4>
+            <p>I wireframed responsive design solutions for both desktop and mobile.</p>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-5">
+                <h6>NEW NAVIGATION MENU</h6>
+                <p>I chose the hamburger menu for its responsiveness but also because I noticed it is commonly used in other intelligence agencies websites so I followed this trend. I completely eliminated the overcrowded submenus and designed a clear and simplified navigation menu.</p>
+            </div>
+            <div class="col-5">
+                <h6>FOOTER WITH SUBMENUS</h6>
+                <p>The footer contains all of the menu options with the sections users will find in each page to make it easier for the user to navigate . There is also a Contact NSA button available in the footer. </p>
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-5">
+                <img src="Images/new nav img.svg">
+            </div>
+            <div class="col-5">
+                <img src="Images/new footer.svg">
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-5">
+                <h6>HOMEPAGE</h6>
+                <p>I went for a captivating homepage that gives the user a general idea of who the NSA is. I included sections that the user might navigate to with appropriate calls to action. The homepage also reflects the main navigation options.</p>
+            </div>
+            <div class="col-4 careers">
+                <h6>CAREERS PAGE</h6>
+                <p>I included a careers page that is nested within the website so users aren’t sent to an external page.</p>
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-7">
+                <img src="Images/midFi homepage.svg">
+            </div>
+            <div class="col-4">
+                <img src="Images/midFi careers.svg">
+            </div>
+          </div>
+          <div class="container">
+          <div class="row justify-content-start">
+            <div class="col-8">
+                <h6>MORE DEVELOPED PAGES</h6>
+                <p>For my solution to the overcrowded submenus, I organized the content in 2nd and 3rd level pages with sections. This way, users aren’t exposed to too much information yet  they can choose to learn more if they wish. I also made sure to include breadcrumbs so users know where they are within the site.</p>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-5">
+                    <img src="Images/more pages1.svg">
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-6">
+                        <img src="Images/more pages2.svg">
+                    </div>
+                </div>
+                </div>
+                </div>
+    </div>
+    <p class="tools">Tools: Adobe XD</p>
+    <div class="userflow stylguide">
+        <div class="divHeading stylguide">
+            <h4>Visual Design and Branding</h4>
+            <p class="highlight">How might we portray the NSA brand?</p>
+            <p>Since I’m designing for a government website, I wanted to keep the design simple and modern and incorporate elements that evoke trust and reliability. The hues of blue inspire these feelings. I also wanted to incorporate images that show the NSA’s values. For example, diversity is an important value of the NSA, so include images that portray a diverse representation of people.</p>
+        </div>    
+            <div class="d-flex justify-content-center">
+            <div id="styleguide"><img src="Images/stylguide.svg"></div>
+        </div>
+    </div>
+    <div class="finalDesign">
+        <div class="divHeading">
+            <h4>Final Homepage Design</h4>
+            <p>For this project, the final deliverable was a high-fidelity responsive homepage and navigation prototype. I applied the visual elements from my style guide and here is what I came up with.</p>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-7">
+                <img src="Images/final design.svg">
+            </div>
+            <div class="col-5">
+                <h6 id="protoLink">PROTOTYPE LINKS</h6>
+                <p class="protoLink">Desktop</p>
+                <a href="https://xd.adobe.com/view/4dee7826-a5a9-43aa-bb15-1ae259b108e5-18bd/">Click me for desktop!</a>
+                <p class="protoLink">Mobile</p>
+                <a href="https://xd.adobe.com/view/259beea8-ebd9-4510-bd13-0cf1651fe8c7-70c8/
+                ">Click me for mobile!
+            </a>
+
+            </div>
+          </div>
+
+
+    
+
+    </div>
+    <p class="tools">Tools: Adobe XD/ Images from: Feepik and NSA.gov</p>
+
+
+
+
+
+</section>
 
 
 
