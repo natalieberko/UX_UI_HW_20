@@ -7,20 +7,22 @@
   a {
     font-family: 'Raleway', sans-serif;
   }
-  h2, h4, h6 {
+  h2, h4 {
       font-family: 'Raleway', sans-serif;
-      font-weight: bold;
+      font-weight: 600;
   }
   h2,h4 {
-      color: #222222;
+      color: black;
   }
   h6 {
       color: #084A7A;
       font-size: 16px;
+      font-weight:400;
   }
 section {
     margin-left: 139px;
     margin-right: 139px;
+    margin-top: 80px;
 }
 .logo {
   height: 40px;
@@ -63,7 +65,7 @@ header p {
   }
   
   /* Overview Styling*/
-  ul {
+  .roleList {
       list-style-type: none;
       position: relative;
       right: 2.5vw;
@@ -106,7 +108,7 @@ header p {
      font-family: 'Raleway', sans-serif;
  }
  .bullets {
-     color: #222222;
+     color: black;
  }
 
 /* The Process Styling*/
@@ -173,17 +175,14 @@ header p {
     background-color: #B3D0E0;
     width: 400px;
     padding-left: 10px;
+    margin-bottom: 40px;
+    line-height: 1;
 }
-.research {
-    margin-top: 80px;
-}
+
 li {
     list-style-type: none;
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
-}
-.highlight {
-    margin-bottom: 40px;
 }
 #personaStats {
     background-color: #B3D0E0;
@@ -214,7 +213,46 @@ li {
    grid-column-end: 5;
    margin-top: 20px;   
 }
+.userflow img {
+    width: 612px;
+    height: 548px;
+    margin-left: 0 auto;
+}
+.userflow {
+    margin-top: 80px;
+}
+.userflow p{
+    width: 30vw;
+    margin-bottom: 80px;
+}
+.tools {
+    text-align: center;
+    margin-top: 20px;
+}
 
+.heurEval p {
+    width: 30vw;
+}
+/*.heurInsights ul {
+    list-style-type:disc;
+}
+/*.heurInsights li{
+    display: inline;
+    font-weight:600;
+}
+/*.heurInsights p {
+    display: inline;
+}*/
+.heurInsights {
+    flex-direction: column;
+}
+.p-2 li {
+    display: inline;
+    font-weight: 600;
+}
+.p-2 p {
+    display: inline;
+}
 
 
 

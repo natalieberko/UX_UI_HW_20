@@ -5,7 +5,12 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="CSS/style.css" type="text/css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 
 
@@ -48,7 +53,7 @@
         <div id="myRole" class="introGridArea">
             <h2>My Role</h2>
             <p class="designer">UX/UI Designer</p>
-            <ul>
+            <ul class="roleList">
                 <li class="role">Research <p class="bullets"> •Persona•Journey•Heuristic evaluation•Testing</p></li>
                 <li class="role">Content Organization <p class="bullets">•Card sorting•Sitemap•UI navigation</p></li>
                 <li class="role">Visual Design <p class="bullets">•Low-fidelity wireframes•Style guide•Components•Hi-fidelity prototyping</p></li>
@@ -107,7 +112,7 @@
             <h2>User Interface Analysis</h2>
             <p>For this phase I executed a heuristic evaluation of the current NSA website. I also conducted usability tests to see how real users navigated through the current website. </p>
         </div>
-        <div class="highlight"><p>So who would typically visit the NSA website?</p></div>
+        <p class="highlight">So who would typically visit the NSA website?</p>
         <p>MEET HANK, A JOB SEEKER</p>
         <div class="persona">
             <div id="personaIMG"><img src="Images/hank@2x.svg"></div>
@@ -134,9 +139,51 @@
         <div class="userflow">
             <h4>User Flow</h4>
             <p>I defined a typical user path for Hank on the current NSA website so I could see the steps he takes to achieve his end goal and identify issues along the way. </p>
-            <img src="Images/Typical user flow.svg">
-
+            <div class="d-flex justify-content-center">
+            <div id="flow"><img src="Images/Typical user flow.png"></div>
         </div>
+    </div>
+        <p class="tools">Tools: Overflow</p>
+        <p class="highlight">What's wrong the NSA website?</p>
+        <div class="heurEval">
+            <h4>Heuristic Evaluation</h4>
+            <p>I executed a heuristic evaluation of the pages Hank visits, that were defined in his user path, as a way to identify usability problems in the website’s current user interface. I analyzed the appearance, accessibility, content, and functionality of the website. </p>
+            <div class="d-flex justify-content-center">
+            <div class="evalIMG">
+                <img src="Images/NSA Homepage@2x.svg">
+                <img src="Images/About NSA@2x.svg">
+                <img src="Images/NSA Career Fields@2x.svg">
+                <img src="Images/Mission and Values@2x.svg">
+            </div>
+        </div>
+    </div>
+    <div class="heurProblems">
+        <h6>MAIN PROBLEMS:</h6>
+        <!-- Research
+<ul class="heurInsights">
+            <li class="heurList">The terminology is confusing.</li>
+            <p class="more"> It is jargon-heavy with words that the average person may not understand, making the pages difficult to scan.</p>
+            <br><li class="heurList">There are too many external links.</li>
+            <p class="more">The user is sent to different websites in order to achieve a task, primarily when looking for career information and opportunities.</p>
+            <br><li class="heurList">The website is not easy to navigate.</li>
+            <p class="more">Getting around the site is not easy and the user has to do a lot of guesswork. One reason is the confusing terminology, but also the submenus aren’t categorized in any particular way and feel overwhelming to browse through. It’s hard to get to know the site and remember where everything is.</p>
+        </ul> -->
+    <ul class="heurInsights">
+        <div class="d-flex flex-column">
+            <div class="p-2 col-lg-6 col-md-8 col-sm-12"><li class="heurList">The terminology is confusing.</li>
+                <p class="more"> It is jargon-heavy with words that the average person may not understand, making the pages difficult to scan.</p>
+            </div>
+            <div class="p-2 col-lg-6 col-md-8 col-sm-12"><li class="heurList">There are too many external links.</li>
+                <p class="more">The user is sent to different websites in order to achieve a task, primarily when looking for career information and opportunities.</p>
+            </div>
+            <div class="p-2 col-lg-6 col-md-8 col-sm-12"><li class="heurList">The website is not easy to navigate.</li>
+                <p class="more">Getting around the site is not easy and the user has to do a lot of guesswork. One reason is the confusing terminology, but also the submenus aren’t categorized in any particular way and feel overwhelming to browse through. It’s hard to get to know the site and remember where everything is.</p>
+            </div>
+
+          </div>
+       </ul>
+    </div>
+
     </section>
 
 
