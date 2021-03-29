@@ -1,0 +1,229 @@
+
+  p {
+      font-family: 'Raleway', sans-serif;
+      line-height: 2;
+      font-size: 16px;
+  }
+  a {
+    font-family: 'Raleway', sans-serif;
+  }
+  h2, h4, h6 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  }
+  h2,h4 {
+      color: #222222;
+  }
+  h6 {
+      color: #084A7A;
+      font-size: 16px;
+  }
+section {
+    margin-left: 139px;
+    margin-right: 139px;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  padding-left: 124px;
+}
+header {
+  background-color: white;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  padding-right: 124px;
+  color: #222222;
+  font-family: 'Ralway', sans-serif !important;
+  font-size: 19px;
+}
+header li {
+  display: inline-block;
+  padding: 0px 25px;
+}
+header p {
+  display: inline-block;
+}
+
+  
+  /* Hero Styling*/
+  .jumbotron {
+      background-color: white;
+      display: block;
+      height: 800px;
+      height: calc(100vh - 25px);
+  }
+  .jumbotron {
+      text-align: center;
+  }
+  .jumbotron h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+  }
+  
+  /* Overview Styling*/
+  ul {
+      list-style-type: none;
+      position: relative;
+      right: 2.5vw;
+  }
+ 
+ #background {
+     text-align: left;
+ }
+ .projectOverview {
+     margin-top: 80px;
+     display: grid;
+     grid-gap: 50px 16px;
+     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+     grid-gap: 16px;
+ }
+ #overview {
+     grid-column-start: 1;
+     grid-column-end: 6;
+ }
+ #myRole {
+     grid-column-start: 7;
+     grid-column-end: 9;
+     grid-row: 1/3;
+ }
+ #agency {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 20px;
+ }
+ #background {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    margin-top: 30px;
+ } 
+ .introGridArea {
+     margin-left: 139px;
+ }
+ .role {
+     color: #B75400;
+     font-family: 'Raleway', sans-serif;
+ }
+ .bullets {
+     color: #222222;
+ }
+
+/* The Process Styling*/
+ .circle {
+  width: 228px;
+  height: 228px;
+  line-height: 228px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: #222222;
+  text-align: center;
+  background: #B3D0E0;
+  border-color:#707070;
+  border: solid 1px;
+}
+.circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.circle {
+    margin: 70px;
+}
+.process h6 {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 139px;
+}
+
+/* CaseStudy nav styling */
+
+.navCircle {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 50%;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color:#5A5A5A;
+    text-align: center;
+    background: none;
+    border-color: #5A5A5A;
+    border: solid 1px;
+    margin: 15px;
+  }
+.CSnav {
+    display: block;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-item p {
+    color:#5A5A5A;
+}
+
+/* Research Styling*/
+.phase1Heading {
+    width: 30vw;
+    margin-bottom: 40px;
+}
+
+.highlight {
+    background-color: #B3D0E0;
+    width: 400px;
+    padding-left: 10px;
+}
+.research {
+    margin-top: 80px;
+}
+li {
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+}
+.highlight {
+    margin-bottom: 40px;
+}
+#personaStats {
+    background-color: #B3D0E0;
+    border: solid 1px;
+    border-color: #707070;
+    border-radius: 9px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.persona {
+    display: grid;
+    grid-gap: 50px 16px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 16px;
+}
+#personaIMG {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#traits {
+    grid-column-start:10;
+    grid-column-end: 12;
+    grid-row: 1/4;
+}
+#personaStats {
+   grid-column-start:2;
+   grid-column-end: 5;
+   margin-top: 20px;   
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
