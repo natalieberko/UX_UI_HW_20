@@ -144,7 +144,9 @@ header p {
 }
 
 /* CaseStudy nav styling */
-
+.navbar {
+    background-color: white;
+}
 .navCircle {
     width: 46px;
     height: 46px;
@@ -168,6 +170,7 @@ header p {
 .nav-item p {
     color:#5A5A5A;
 }
+
 
 /* Research Styling*/
 .phase1Heading, .phase2Heading {
@@ -321,7 +324,7 @@ li {
 
 /* define/ ideate styling */
 .list-item {
-    margin-bottom:  40px;
+    margin-bottom:  20px;
 }
 #sitemap img {
     width: 1088px;
@@ -347,6 +350,61 @@ li {
     color:#B75400;
     margin-top: 50px;
 }
+
+/*testing styling*/
+.pointer{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.pointer1 .shortText {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 1vw;
+    right: 0;
+    top: 5vh;
+    text-align:left;
+    width: 55%;
+}
+.pointer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.pointer2 .longText {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 1vw;
+    right: 0;
+    top: 1vh;
+    text-align:left;
+    width: 55%;
+}
+.insight{
+    list-style-type: disc;
+    display:list-item;
+}
+
+/*takeaways styling*/
+.takeaway {
+    font-weight: 600;
+}
+.takeaway {
+    list-style-type: disc;
+    display:list-item;
+}
+.item-list {
+    list-style-type: disc;
+    display:list-item;
+    margin-top: 20px;
+}
+.mas {
+    max-width: 710px;
+}
+
+
 
 
 
