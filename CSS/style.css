@@ -403,6 +403,17 @@ li {
 .mas {
     max-width: 710px;
 }
+/* Next Styling*/
+#CStitle {
+    color: #7F0303;
+    font-weight: 600;
+}
+#viewCS {
+    font-weight: 700;
+}
+.next {
+    margin-bottom: 80px;
+}
 
 
 
